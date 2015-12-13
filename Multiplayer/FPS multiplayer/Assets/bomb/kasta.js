@@ -10,7 +10,7 @@ function Start () {
 }
 
 function Update () {
-if (Input.GetButtonDown("Fire1"))
+if (Input.GetButtonDown("Fire2"))
 {
 var clone: Rigidbody;
 clone= Instantiate(grenade, transform.position, transform.rotation);

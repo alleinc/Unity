@@ -5,8 +5,8 @@ var explosiveDelay : float = 5.0; //adds a delay in seconds to our explosive obj
 var explosionPrefab : Transform;
 var explosionSound : AudioClip;
 var hitSound : AudioClip;
- 
- 
+var TheDammage = 100;
+var hit : RaycastHit;
 function OnCollisionEnter(){
 AudioSource.PlayClipAtPoint(hitSound, transform.position, 1);
 }
@@ -30,7 +30,7 @@ for(var hit : Collider in colliders){  //for loop that says if we hit any collid
    if (hit.GetComponent.<Rigidbody>()){
       hit.GetComponent.<Rigidbody>().AddExplosionForce(power, grenadeOrigin, radius, explosiveLift); //if we hit any rigidbodies then add force based off our power, the position of the explosion object
       AudioSource.PlayClipAtPoint(explosionSound, transform.position, 1);
-      Destroy(gameObject);                        //the radius and finally the explosive lift. Afterwards destroy the game object.
+  		hit.transform.SendMessage("ApplyDammage", TheDammage, SendMessageOptions.DontRequireReceiver);                  //the radius and finally the explosive lift. Afterwards destroy the game object.
                     }
          }
 }
