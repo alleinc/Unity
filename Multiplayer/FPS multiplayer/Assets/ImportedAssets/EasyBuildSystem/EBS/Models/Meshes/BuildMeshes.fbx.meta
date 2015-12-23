@@ -1,0 +1,160 @@
+fileFormatVersion: 2
+guid: 2ab52a0e14f4f8947ba8958e7fcc02aa
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Cube.002
+    100004: floor
+    100006: foundation
+    100008: pillar
+    100010: stair
+    100012: wall
+    100014: wall_window
+    100016: Cube.000
+    100018: wall_window.001
+    100020: barricade
+    100022: chest
+    100024: chest_cover
+    100026: door_way
+    100028: window
+    100030: window.door
+    400000: //RootNode
+    400002: Cube.002
+    400004: floor
+    400006: foundation
+    400008: pillar
+    400010: stair
+    400012: wall
+    400014: wall_window
+    400016: Cube.000
+    400018: wall_window.001
+    400020: barricade
+    400022: chest
+    400024: chest_cover
+    400026: door_way
+    400028: window
+    400030: window.door
+    2300000: Cube.002
+    2300002: floor
+    2300004: foundation
+    2300006: pillar
+    2300008: stair
+    2300010: wall
+    2300012: wall_window
+    2300014: Cube.000
+    2300016: wall_window.001
+    2300018: barricade
+    2300020: chest
+    2300022: chest_cover
+    2300024: door_way
+    2300026: window
+    2300028: window.door
+    3300000: Cube.002
+    3300002: floor
+    3300004: foundation
+    3300006: pillar
+    3300008: stair
+    3300010: wall
+    3300012: wall_window
+    3300014: Cube.000
+    3300016: wall_window.001
+    3300018: barricade
+    3300020: chest
+    3300022: chest_cover
+    3300024: door_way
+    3300026: window
+    3300028: window.door
+    4300000: stair
+    4300002: pillar
+    4300004: foundation
+    4300006: Cube.002
+    4300008: wall_window
+    4300010: wall
+    4300012: floor
+    4300014: Cube.000
+    4300016: wall_window.001
+    4300018: window.door
+    4300020: barricade
+    4300022: chest_cover
+    4300024: chest
+    4300026: window
+    4300028: door_way
+    6400000: Cube.002
+    6400002: floor
+    6400004: foundation
+    6400006: pillar
+    6400008: stair
+    6400010: wall
+    6400012: wall_window
+    6400014: Cube.000
+    6400016: wall_window.001
+    6400018: barricade
+    6400020: chest
+    6400022: chest_cover
+    6400024: door_way
+    6400026: window
+    6400028: window.door
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
